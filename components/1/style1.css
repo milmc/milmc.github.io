@@ -1,0 +1,97 @@
+/*
+Milissa McClelland
+Web Standards Project
+Week Two Project
+*/
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#banner {
+    background: #000;
+    color: white;
+    text-align: right;
+    font-family: "Comfortaa", verdana, serif;
+
+}
+
+#banner p {
+    padding: 10px;
+}
+
+
+
+/**********NAVIGATION**********/
+
+nav ul ul {
+    display: none;
+}
+
+Nav ul li:hover >ul {
+    display: block;
+}
+
+nav ul {
+    background-color: #000;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background-color: #ccc;
+}
+
+nav ul li:hover a {
+    color: #784558;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul ul {
+    background: #ccc;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #784558;
+}
+
+nav ul ul li a:hover {
+    background: #000;
+}
+
+
+section {
+    height: 400px;
+    text-align: center;
+    border: 2px dotted #ccc;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    margin: 25px 0;
+    font-family: "Comfortaa", verdana, serif;
+}

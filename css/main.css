@@ -2,7 +2,6 @@
 Milissa McClelland
 Web Standards Project
 Week One Project
-November 1, 2015
 */
 
 html {
@@ -12,6 +11,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -20,7 +20,7 @@ h1, h2, h3 {
     font-family: "ComforStaa", verdana, serif;
 }
 
-#fea {
+#feature {
     float: right;
     width: 75px;
     padding: 5px;
@@ -85,6 +85,14 @@ article {
 article p {
     color: gray;
     margin-bottom: 10px;
+}
+
+input {
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    background-color: gray;
 }
 
 #featured {

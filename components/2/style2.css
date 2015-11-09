@@ -1,0 +1,61 @@
+/*
+Milissa McClelland
+Web Standards Project
+Week One Project
+*/
+
+html {
+    background: url("images/woodBg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: "comfortaa", sans-serif;
+}
+
+header {
+    background: #000;
+    color: white;
+    text-align: right;
+    font-family: "Comfortaa", verdana, serif;
+
+}
+
+header p {
+    padding: 10px;
+}
+
+input[type="button"] {
+    color: green;
+}
+
+section {
+    width: 1040px;
+    height: 450px;
+    background-image: url("images/woodLeaf.jpg");
+    margin: 0 auto;
+}
+
+#wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+
+#wrapper h1, p {
+    color: #ffffff;
+
+}
+
+#wrapper p {
+    margin-bottom: 200px;
+}
+
+footer {
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}

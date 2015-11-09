@@ -1,0 +1,35 @@
+/*
+Milissa McClelland
+Web Standards Project
+Week Two Project
+*/
+
+html {
+    background: url("images/shell.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Comfortaa", verdana, serif;
+}
+
+header {
+    background: #000;
+    color: white;
+    text-align: right;
+}
+
+header p {
+    padding: 10px;
+}
+
+section {
+    height: 530px;
+    text-align: center;
+    border: 2px dotted #ccc;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
