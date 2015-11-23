@@ -4,7 +4,7 @@ Web Standards Project
 Week Two Project
 */
 
-
+/**********Header**********/
 
 header {
     background: #000;
@@ -16,6 +16,8 @@ header p {
     padding: 10px;
 }
 
+/**********Section**********/
+
 section {
     height: 530px;
     text-align: center;
@@ -23,6 +25,13 @@ section {
     margin-bottom: 20px;
 }
 
-footer {
+/**********Footer**********/
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+footer{
     text-align: center;
 }

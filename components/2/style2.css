@@ -9,6 +9,8 @@ body {
     font-family: "comfortaa", sans-serif;
 }
 
+/**********Header**********/
+
 header {
     background: #000;
     color: white;
@@ -21,16 +23,16 @@ header p {
     padding: 10px;
 }
 
-input[type="button"] {
-    color: green;
-}
+/**********Section**********/
 
 section {
     width: 1040px;
     height: 450px;
-    background-image: url("images/woodLeaf.jpg");
+    border: 1px dotted black;
     margin: 0 auto;
 }
+
+/**********Call to Action**********/
 
 #wrapper {
     margin: 0 auto;
@@ -38,16 +40,23 @@ section {
     width: 600px;
 }
 
-#wrapper h1, p {
-    color: #ffffff;
-
+form {
+    width:500px;
+    margin:300px auto;
 }
-
-#wrapper p {
-    margin-bottom: 200px;
+.search {
+    padding:8px 15px;
+    border:0 solid #dbdbdb;
 }
-
-footer {
-    margin-top: 150px;
-    text-align: center;
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #32cc74;
+    background-color:#32cc74;
+    color:#fff;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
 }
